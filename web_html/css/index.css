@@ -1,0 +1,249 @@
+.talk_tab{
+    width: 70%;
+    height: 75%;
+    display: flex;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 5%;
+    border:1px solid #eeeeee;
+    flex-direction: column;
+}
+.talk_tab .talk_top{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(201, 243, 239);
+    color: white;
+    display: flex;
+}
+.talk_tab .talk_top div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.talk_tab .talk_top div img{
+    height: 80%;
+    width: auto;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.talk_tab .talk_top span{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+} 
+.talk_tab .talk_top .examine_tag{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    position: relative;
+    left: -15px;
+    top: -7px;
+}
+.talk_tab  .talk_content{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+}
+.talk_tab  .talk_content .talk_list,.talk_tab  .talk_content .talk_middle{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #eeeeee;
+    /* background-color: red; */
+}
+.talk_tab  .talk_content .talk_list{
+    cursor: pointer;
+}
+.talk_tab  .talk_content .talk_list .add_friend{
+    display: flex;
+}
+.talk_tab  .talk_content .talk_list .add_friend input{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+}
+.talk_tab  .talk_content .talk_list .add_friend button{
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+    border: 0px;
+    background-color: rgb(69,219,205);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.talk_tab  .talk_content .talk_list li:hover{
+    background-color: #eeeeee;
+}
+.talk_tab  .talk_content .talk_middle{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #eeeeee;
+    list-style: none;
+    overflow-y: scroll;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_left div,.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_right div{
+    min-height: 40px;
+    /* min-width: 60px; */
+    max-width: 50%;
+    width: fit-content;
+    background-color: rgb(69,219,205);
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_left{
+    display: flex;
+    justify-content: start;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_right{
+    display: flex;
+    justify-content: end;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_left img,.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_right img{
+    width: 50px;
+    height: min-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_left div{
+    border-bottom-left-radius: 0px;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_content .talk_right div{
+    border-bottom-right-radius: 0px;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write{
+    width: 100%;
+    height: 30%;
+    list-style: none;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_tool{
+    height: 15%;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_tool div{
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_tool div .emoji{
+    position: absolute;
+    width: 150px;
+    height:150px;
+    border: 1px solid #eeeeee;
+    top: -160px;
+    word-break: break-all;
+    padding: 5px;
+    display: none;
+    background-color: white;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_write{
+    height: 85%;
+    cursor:text;
+    outline: none;
+    padding: 7px;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_send{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+.talk_tab  .talk_content .talk_middle .talk_middle_write .talk_send button{
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    border: 0px;
+    background-color: rgb(69,219,205);
+    color: white;
+    cursor: pointer;
+}
+.talk_tab  .talk_content .talk_list li{
+    list-style:none;
+    padding: 5%;
+    height: 80px;
+    /* border-bottom: 1px solid #eeeeee; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.talk_obj{
+    position: relative;
+}
+.talk_obj .unread_tag{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    background-color: red;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.talk_obj  .unread_tag_none{
+    display: none;
+}
+.talk_tab  .talk_content .talk_list li .talk_name,.talk_tab  .talk_content .talk_list li .last_talk,
+.talk_tab  .talk_content .talk_history li .talk_name{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+
+}
+.talk_tab  .talk_content .talk_list li .last_talk,.talk_tab  .talk_content .talk_list li  .last_time{
+    font-weight: 400;
+    font-size: 12px;
+    width: 50%;
+    display: inline-block;
+}
+.talk_tab  .talk_content .talk_list li .now_status{
+    font-size: 12px;
+    color: gray;
+    width: 100%;
+}
+.talk_tab  .talk_content .talk_history{
+    width: 20%;
+}
+.talk_tab  .talk_content .talk_history li{
+    list-style: none;
+    padding: 5%;
+}
+.talk_tab  .talk_content .talk_history li .last_talk{
+    width: 100%;
+    word-break: break-all;
+    font-size: 14px;
+}
+.talk_tab  .talk_content .talk_history li .last_time,.talk_tab  .talk_content .talk_list li  .last_time{
+    font-size: 12px;
+    text-align: right;
+}

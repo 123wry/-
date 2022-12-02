@@ -1,0 +1,356 @@
+server: handshake success with fd1
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+client 1 closed
+[2022-11-20 12:09:29 #1885.8]	INFO	Server is shutdown now
+server: handshake success with fd1
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+client 1 closed
+[2022-11-20 12:10:59 #1984.8]	INFO	Server is shutdown now
+server: handshake success with fd1
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+[2022-11-20 12:11:43 *2033.6]	NOTICE	ProcessFactory::finish() (ERRNO 1004): send 7 bytes failed, because session#1 is closed
+client 1 closed
+server: handshake success with fd2
+receive from 2:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+[2022-11-20 12:12:19 *2033.6]	NOTICE	ProcessFactory::finish() (ERRNO 1004): send 7 bytes failed, because session#2 is closed
+client 2 closed
+[2022-11-20 12:12:36 #2017.8]	INFO	Server is shutdown now
+server: handshake success with fd1
+receive from 1:hello,opcode:1,fin:1
+object(Swoole\Connection\Iterator)#4 (0) {
+}
+client 1 closed
+[2022-11-20 12:13:58 #2057.8]	INFO	Server is shutdown now
+client 1 closed
+[2022-11-20 12:23:46 #2091.8]	INFO	Server is shutdown now
+client 1 closed
+[2022-11-20 18:56:59 #2165.8]	INFO	Server is shutdown now

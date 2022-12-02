@@ -1,0 +1,112 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.input_class{
+	width:100%;
+	height:50px;
+	border-radius:5px;
+	border:1px solid #eeeeee;
+	padding-left:13px;
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	display: block;
+}
+.input_class:focus{
+	outline:1px solid rgb(69,219,205);
+}
+.input_class+span{
+	font-size: 16px;
+	margin-left: 15px;
+	color: #666666;
+	position: relative;
+	top: -38px;
+	width: fit-content;
+}
+.input_class:valid+span,.input_class:focus+span{
+	top: -59px;
+	font-size: 14px;
+	background-color: white;
+	color: rgb(69,219,205);
+	width: fit-content;
+}
+.model,.alter{
+	background-color: rgba(0,0,0,0.1);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+.model_tab,.alter_tab{
+	width: 40%;
+	height: 34%;
+	background-color: white;
+	position: relative;
+	top: 33%;
+	left:30%;
+}
+.alter_tab{
+	width: 25%;
+	height: 25%;
+	top: 37.5%;
+	left:37.5%;
+}
+.model_tab div,.alter_tab div{
+	display: flex;
+	height: 20%;
+}
+.model_tab div button,.alter_tab div button{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	background-color: white;
+	border: 1px solid #eeeeee;
+	cursor: pointer;
+}
+.alter_tab div.alter_content{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.model_tab div.model_content{
+	width: 100%;
+	height: 80%;
+	display: flex;
+}
+.model_tab div.model_content li{
+	list-style: none;
+	display: flex;
+	width: 25%;
+	flex-direction: row;
+	padding: 15px;
+	flex-wrap: wrap;
+	height: fit-content;
+}
+.model_tab div.model_content li .friend_email{
+	font-size: 16px;
+	width: 100%;
+}
+.model_tab div.model_content li .friend_time{
+	font-size: 12px;
+	color: #666666;
+	width: 100%;
+}
+.model_tab div.model_content li button{
+	height: 30px;
+	line-height: 30px;
+	width: 40%;
+	margin-top: 10px;
+}
+.model_tab div.model_content li button.friend_ok{
+	margin-right: 5%;
+}

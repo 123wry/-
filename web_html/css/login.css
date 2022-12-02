@@ -1,0 +1,98 @@
+body{
+	display:flex;
+	flex-direction: row;
+    align-items: center;
+}
+.login_tab{
+	width:400px;
+	margin:0 auto;
+	/* border-radius: 10px; */
+	border:1px solid #eeeeee;
+	padding:50px;
+}
+.login_tab .login_title{
+	text-align:center;
+	color: rgb(69,219,205);
+}
+.login_tab .login_title span{
+	font-size:23px;
+	margin-top:15px;
+	display:block;
+	color: black;
+	margin-bottom: 30px;
+}
+.login_tab .forget_class{
+	display: none;
+}
+.login_tab .email{
+	padding-right: 100px;
+}
+.login_tab .valid{
+	width: 35%;
+}
+.login_tab .send{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	height: 0px;
+}
+.login_tab .send button{
+	height: 35px;
+	line-height: 35px;
+	width: 20%;
+	border: 0px;
+	background-color: rgb(69,219,205);
+	color: white;
+	cursor: pointer;
+	position: relative;
+	top: -63px;
+	right: 10px;
+}
+.login_tab .warn{
+	color: red;
+	margin-left: 5px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.login_tab .beizhu{
+	color: rgb(69,219,205);
+	margin-left: 5px;
+	font-size: 15px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+}
+.login_tab .beizhu span{
+	width: 50%;
+}
+.login_tab .beizhu span:nth-child(2),.login_tab .beizhu span:nth-child(3){
+	text-align: right;
+	margin-right: 10px;
+}
+.login_tab .beizhu span:nth-child(3){
+	display: none;
+}
+.login_tab .regist_btn,.login_tab .forget_btn{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	display: none;
+}
+.login_tab .login_btn{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+.login_tab .login_btn button,.login_tab .regist_btn button,.login_tab .forget_btn button{
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(69,219,205);
+	border: 0px;
+	width: 30%;
+	color: white;
+	margin-top: 50px;
+	cursor: pointer;
+}
