@@ -122,13 +122,26 @@ class Index extends BaseController
     {
         $uid = $this->request->user_id;
         $examine = new Examine;
+        $user = new User;
         try{
-            $ret = $examine
-            ->alias("e")
-            ->field("u.`email` as `email`,FROM_UNIXTIME(e.`create_time`) as `ctime`,e.`examine_id` as `examine_id`,e.`status`")
-            ->leftJoin('t_user u','e.user_id=u.user_id')
-            ->where("e.talk_id",$uid)
+            $ret = $examine->alias("e")
+            ->field("FROM_UNIXTIME(e.`create_time`) as `ctime`,e.`examine_id` as `examine_id`,e.`status`,e.user_id")
+            ->where('talk_id',$uid)
             ->select();
+            $uid = "";
+            foreach($ret as $tmp){
+                $uid .= $tmp['user_id'].',';
+            }
+            $uid = trim($uid,",");
+            $uid_result = $user->field("user_id,email")->where("user_id in (".$uid.")")->select();
+            $uid_array = [];
+            foreach($uid_result as $tmp2){
+                $uid_array[$tmp2['user_id']] = $tmp2['email'];
+            }
+            foreach($ret as $key=>$tmp){
+                $ret[$key]['email'] = $uid_array[$tmp['user_id']];
+            }
+
         } catch(\Exception $e){
             $result = ["code"=>500,"message"=>"获取数据失败".$e];
             return json($result);
