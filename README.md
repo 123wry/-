@@ -10,8 +10,8 @@ data.sql
 thinkphp6 jq
 ## 运行
 ### 运行目录
-前端运行目录:web_html
-后端运行目录:index\public
+前端运行目录:web_html  
+后端运行目录:index\public  
 swoole运行文件:index\server.php
 ### 运行流程
 1.先把前端和后端目录挂载在NGINX上  
