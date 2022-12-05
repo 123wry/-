@@ -96,29 +96,53 @@ abstract class BaseController
     public function sendEmail($subjuct,$body,$to)
     {
         $mail = new PHPMailer(true);
-
+        $email = env('smtp.username');
+        $password = env('smtp.password');
         try {
-            
-            //Server settings
-            #$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-            $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host       = 'smtp.qq.com';                     //Set the SMTP server to send through
-            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = env('smtp.username');                     //SMTP username
-            $mail->Password   = env('smtp.password');                               //SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-            $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-            // //Recipients
-            $mail->setFrom(env('smtp.username'), 'HW');
-            $mail->addAddress($to, $to);     //Add a recipient
+            if(strpos($email,"qq.com") !== false){
+                //Server settings
+                #$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+                $mail->isSMTP();                                            //Send using SMTP
+                $mail->Host       = 'smtp.qq.com';                     //Set the SMTP server to send through
+                $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                $mail->Username   = $email;                     //SMTP username
+                $mail->Password   = $password;                               //SMTP password
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+                $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+                // //Recipients
+                $mail->setFrom($email, 'talking_e');
+                $mail->addAddress($to, $to);     //Add a recipient
 
-            //Content
-            $mail->isHTML(true);                                  //Set email format to HTML
+                //Content
+                $mail->isHTML(true);                                  //Set email format to HTML
+                
+                $mail->Subject = $subjuct;
+                $mail->Body    = $body;
+                $mail->send();
+            } elseif(strpos($email,"gmail.com") !== false){
+                
+                //Server settings
+                #$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+                $mail->isSMTP();                                            //Send using SMTP
+                $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+                $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                $mail->Username   = $email;                     //SMTP username
+                $mail->Password   = $password;                               //SMTP password
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+                $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+                // //Recipients
+                $mail->setFrom($email, 'talking_e');
+                $mail->addAddress($to, $to);     //Add a recipient
+
+                //Content
+                $mail->isHTML(true);                                  //Set email format to HTML
+                
+                $mail->Subject = $subjuct;
+                $mail->Body    = $body;
+                // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+                $mail->send();
+            }
             
-            $mail->Subject = $subjuct;
-            $mail->Body    = $body;
-            // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-            $mail->send();
             $result = ['code'=>200,'message'=>'发送成功'];
         } catch (\Exception $e) {
             $msg = "邮件没有发送成功. 报错为: ".$e->getMessage();
