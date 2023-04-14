@@ -1,7 +1,7 @@
 # taking_e
 ## 版本
 version 1.0
-一款使用邮箱注册聊天的项目
+一款聊天项目，注册可使用邮箱注册，目前支持gmail，qq邮箱
 ## 开发环境
 php7.4 linux mysql swoole4.8 redis
 ### 数据库
@@ -19,5 +19,3 @@ swoole运行文件:index\server.php
 swoole服务端端口号配置在index\server.php中;  
 index\.env里面存放数据库,发送邮箱(qq邮箱/gmail邮箱),redis账号配置    
 3.php server.php
-## 交流群
-![c0281ac059cfed558d5edfebbf3fc34](https://user-images.githubusercontent.com/37102067/205300941-216b5ac3-cea3-489d-a631-d9c345df7341.jpg)
